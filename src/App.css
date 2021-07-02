@@ -17,18 +17,6 @@
   color: white;
 }
 
-.navBar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navBar li {
-  display: inline;
-  padding: 8px;
-  background-color: #dddddd;
-}
-
 li:hover {
   background-color: #111;
 }
@@ -48,47 +36,10 @@ li:hover {
   color: white;
 }
 
-.aboutpage {
-  width: 75%;
-  margin: 0 auto;
-  margin-top: 25px;
-  font-size: 1.3vw;
-  font-weight: bold;
-  color: white;
-}
-
-.aboutpage img {
-  width: 50%;
-  height: 50%;
-  margin: 0 auto
-}
-
-.aboutpage h1 {
-  border-bottom: 6px white solid;
-  font-size: 5vh;
+.aboutPage {
+  margin-top: 50px;
 }
 
 .packages {
-  width: 75%;
-  margin: 0 auto;
   margin-top: 50px;
-  font-size: 1.3vw;
-  font-weight: bold;
-  color: white;
-}
-
-.packages h1 {
-  border-bottom: 6px white solid;
-  font-size: 5vh;
-}
-
-.packages ul {
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.packages li {
-  font-size: 25px;
-  margin: 20px;
 }
