@@ -25,7 +25,7 @@ function App() {
 
         <div className="display">
           <Routes>
-            <Route path="/about" component={About} />
+            <Route path="/about" element={<About/>} />
             <Route path="/packages" element={<Packages packages={packages}/>}  />
           </Routes>
         </div>
