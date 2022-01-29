@@ -19,12 +19,12 @@ function App() {
         <header>
           <h1 className="title">Welcome to Monty's Mineral SPA</h1>
         </header>
-        
+
         <NavBar />
+        <Home />
 
         <div className="display">
           <Routes>
-            <Route path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/packages" element={<Packages packages={packages}/>}  />
           </Routes>
